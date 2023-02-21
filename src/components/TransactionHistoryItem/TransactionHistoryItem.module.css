@@ -1,0 +1,13 @@
+.cell{
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 100px;   
+}
+
+.item:nth-child(even){
+    background-color: aqua;
+}
+
+.item:nth-child(odd){
+    background-color: violet;
+}

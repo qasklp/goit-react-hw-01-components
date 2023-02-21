@@ -1,0 +1,28 @@
+.item{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(249, 249, 246);
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.item:last-child{
+    margin-bottom: 0;
+}
+
+.status{
+    display: block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+
+.online{
+    background-color: #00ff00;
+}
+
+.offline{
+    background-color: #ff0000;
+}

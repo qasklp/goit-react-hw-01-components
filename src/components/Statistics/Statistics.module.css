@@ -1,0 +1,14 @@
+.title{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.statistics{
+    margin-left: 20px;
+    min-width: 150px;
+}
+
+.statList{
+    list-style: none;
+    padding: 0;
+}
